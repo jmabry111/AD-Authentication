@@ -1,6 +1,6 @@
 <?php
 	$dbuser='root';
-	$dbpass='WinXP#1';
+	$dbpass='your_password';
 	$dbhost='localhost';
 	$dbname='HR';
 	
