@@ -39,7 +39,7 @@
 			$result = mysql_query($sql, $conn);
 			$row = mysql_fetch_array($result);
 			if (mysql_num_rows($result) == 0){
-				$_SESSION['msg']='Although you are a HCPS User, you are not authorized to use this system.';
+				$_SESSION['msg']='Although you are a valid directory user, you are not authorized to use this system.';
 				header('Location: ./index.php');	
 			}
 			else{
